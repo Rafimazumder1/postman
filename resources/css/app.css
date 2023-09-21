@@ -1,0 +1,58 @@
+
+body{
+  font-size:17px;
+  color:#424242;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #7c7979;
+  background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+}
+.nav-bar {
+  background-color: yellow; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar li {
+	
+  display: inline;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.banner-content .home-banner-heading {
+  text-shadow: none;
+  color: #602e8d;
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 64px
+}
+
+h1.home-banner-heading span {
+  display: inline-block;
+  color: #602e8d;
+  position: relative;
+  z-index: 1;
+  padding: 0 5px
+}
+
+h1.home-banner-heading span:nth-child(3),
+h1.home-banner-heading span:nth-child(6) {
+  color: #fbee48;
+  margin: 0 3px
+}
+
+h1.home-banner-heading span:nth-child(3)::after,
+h1.home-banner-heading span:nth-child(6)::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 102%;
+  height: 60px;
+  background: #602e8d;
+  top: 0;
+  left: -2px;
+  z-index: -1;
+  transform: skewX(-7deg)
+}
