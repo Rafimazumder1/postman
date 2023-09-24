@@ -15,7 +15,9 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'Home']);
+// Login
 Route::get('/login', [HomeController::class, 'login']);
+Route::post('/login_form',[HomeController::class, 'login_form']);
 
 Route::get('/About', [HomeController::class, 'login']);
 Route::get('/recever', [HomeController::class, 'recever']);
@@ -23,4 +25,4 @@ Route::get('/recever', [HomeController::class, 'recever']);
 
 // route
 Route::get('/register', [HomeController::class, 'register']);
-Route::POST('/register_form', [HomeController::class, 'register_form']);
+Route::post('/register_form', [HomeController::class, 'register_form']);

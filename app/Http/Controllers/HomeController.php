@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use DB;
 use Illuminate\Support\Facades\Redirect;
+use Session;
+use Illuminate\Support\Facades\Auth;
+
 
 
 
@@ -46,17 +49,35 @@ class HomeController extends Controller
         $data['First name']=$request->fname;
         $data['last name']=$request->lname;
         $data['email']=$request->email;
-        $data['password']=MD5($request->pass);
+        $data['Password']=MD5($request->Pass);
         $data['gender']=$request->gender;
         $data['city']=$request->city;
         $data['Country']=$request->Country;
         $user=DB::table('user_registration')->insertGetId($data);
 
         return  Redirect::to('/login')->with('Success','Account has been created.');
-    // echo "hi";
+     // echo "hi";
      }
 
+      public function login_form(Request $request)
+     {
+        
+        $Email=$request->Email;
+        $pass=MD5($request->Password);
+        $data=DB::Table('user_registration')
+        ->where ('Email',$Email)
+        ->where ('Password',$pass)
+        ->first();
+        if($data){
+            Session::put('Email',$Email);
+echo "hello";
 
+            // return Redirect::to('/Home');
+        }
+        else{
+            // return redirect('/login')->with('flash_message_error','Email Or Password Not Valid');
+            echo "hi";
 
-     
+        }
+    }
 }

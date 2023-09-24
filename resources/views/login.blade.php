@@ -6,58 +6,55 @@
         <link rel="shortcut icon" href="/img/postman.png">
         <title>
         
-            Business Profile</title>
+            postman</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/rl.css">
+    
+        {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> --}}
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
         
     </head>
-    <body style="background-color: #e7decc;">
+    <body style="background-color: #ffffff;">
 
-        <div class="main-container">
-            <div class="header-part">
-                <div class="header-option">
-                    <div class="logo-back">
-                    <a href="{{url('/')}}"><img class="log" src="img/postman.png" alt="postman"></a>
-
-                    </div>
-                     
-                </div>
-                <div class="login-section">
-                <form action="{{url('/login')}}" method="get" autocomplete="off">
-                        <button class="button login__submit">
-					        <span class="button__text">Log In or Sign Up</span>
-				        </button>
-                    </form>>
-
-                </div>
-                
-                	
-
+        <header>
+            <div class="logo">
+            <img class="log_" src="img/postman.png" alt="Log">
             </div>
-        </div>
+            <div class="navbar">
+              <a href="{{url('/')}}">Home</a>
+              <a href="{{url('/About')}}">About</a>
+              <a href="#services">Services</a>
+             <a href="#services">Aria</a>
+              <a href="#services">Track</a>
+              <a href="#services">Transport</a>
+              <a href="#contact">Contact</a>
+            </div>
+        </header>
+
+                
+       
         
         <div class="left-side">
-        <div class="container">
+        <div class="container_log">
             <div class="screen">
                 <div class="screen__content">
-                    <form class="login" action="{{url('/login_from_action')}}" method="post" autocomplete="off" onsubmit="return IsPageValid();">
-                    {{ csrf_field() }}
-                        <div class="login__field">
+                    <form class="login" action="{{url('/login_form')}}" method="post" autocomplete="off" onsubmit="return IsPageValid();">
+                        {{ csrf_field() }}
+                             <div class="login__field">
                             <i class="login__icon fas fa-user"></i>
-                            <input type="text" class="login__input" placeholder="Email or Phone" name="login" required>
+                            <input type="text" class="login__input" placeholder="Email or Phone" name="Email"required>
                         </div>
                         <div class="login__field">
                             <i class="login__icon fas fa-lock"></i>
-                            <input type="password" class="login__input" placeholder="Password" name="password" required>
+                            <input type="password" class="login__input" placeholder="Password" name="Password"required>
                         </div>
-                        <button class="button login__submit">
+                        <button class="button_log login__submit">
                             <span class="button__text">Log In Now</span>
                             <i class="button__icon fas fa-chevron-right"></i>
                             
@@ -81,9 +78,10 @@
                     <span class="screen__background__shape screen__background__shape1"></span>
                 </div>		
             </div>
-        </div>        </div>
+        </div>       
+     </div>
         <div class="right-side">
-            <img src="/images/login page bg.png" alt="" class="login_page_image">
+            <img src="/img/postman.png" alt="" class="login_page_image">
         </div>
 
     </body>

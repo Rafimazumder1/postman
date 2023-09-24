@@ -10,8 +10,8 @@ body{
   background-color: #007bff;
 }
   
-  header {
-    display:flex;
+header {
+    display: flex;
     position:sticky;
     top:0px;
     right: 0;
@@ -19,12 +19,17 @@ body{
     background-color:black;
    }
 
+   .logo{
+    display: flex;
+    width: 20%;
+   }
+
   
 
 .log{
 margin-top:5px;
 margin-left:40px;
-width:80px;
+width:100px;
 overflow: hidden;
 align-items: center;
 
