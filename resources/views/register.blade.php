@@ -27,9 +27,9 @@
         </div>
     <div class="rl">
 
-          <a class="fcc-btn" href="{{url('/login')}}" style="background-color:rgb(51, 0, 255); color:black;">Log in </a>
+          <a class="fcc-btn" href="{{url('/login')}}" style="background-color:rgb(51, 0, 255); color:rgb(255, 255, 255);">Log in </a>
           
-          <a class="fcc-btn" href="#"style="background-color:red; color:black; ">Sing Up</a>
+          <a class="fcc-btn" href="#"style="background-color:red; color:white; ">Sing Up</a>
 
     </div>
 

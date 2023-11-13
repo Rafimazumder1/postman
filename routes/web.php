@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ImageController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
@@ -15,9 +16,12 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'Home']);
+
+
 // Login
 Route::get('/login', [HomeController::class, 'login']);
 Route::post('/login_form',[HomeController::class, 'login_form']);
+Route::get('/delivery_info', [HomeController::class, 'delivery_info']);
 
 Route::get('/About', [HomeController::class, 'login']);
 Route::get('/recever', [HomeController::class, 'recever']);
@@ -26,3 +30,14 @@ Route::get('/recever', [HomeController::class, 'recever']);
 // route
 Route::get('/register', [HomeController::class, 'register']);
 Route::post('/register_form', [HomeController::class, 'register_form']);
+Route::post('/delivery_form', [HomeController::class, 'delivery_form']);
+Route::get('/show', [HomeController::class, 'show']);
+
+// route for calculetor
+Route::get('/delivery_calculator', [HomeController::class, 'delivery_calculator']);
+Route::post('/calculat_result', [HomeController::class, 'calculat_result']);
+
+
+// image route for slide image in home page
+
+// routes/web.php

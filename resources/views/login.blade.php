@@ -18,6 +18,10 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+        {{-- cdn.tailwindcss.com --}}
+{{-- 
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.7/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script> --}}
         
     </head>
     <body style="background-color: #ffffff;">
@@ -28,15 +32,11 @@
             </div>
             <div class="navbar">
               <a href="{{url('/')}}">Home</a>
-              <a href="{{url('/About')}}">About</a>
-              <a href="#services">Services</a>
-             <a href="#services">Aria</a>
-              <a href="#services">Track</a>
-              <a href="#services">Transport</a>
               <a href="#contact">Contact</a>
+
+              <a class="fcc-btn" href="{{url('/register')}}"style="">Sign Up</a>
             </div>
         </header>
-
                 
        
         

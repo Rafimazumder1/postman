@@ -35,6 +35,16 @@ class HomeController extends Controller
         return view('register',);
     }
 
+    public function delivery_info()
+    {
+        return view('customer.delivery_info',);
+    }
+
+    public function delivery_calculator()
+{
+    return view('customer.calculat');
+}
+    
     
 
     public function recever()
@@ -70,14 +80,66 @@ class HomeController extends Controller
         ->first();
         if($data){
             Session::put('Email',$Email);
-echo "hello";
+            return  Redirect::to('/delivery_info')->with('Success','Account has been created.');
+// echo "hello";
 
             // return Redirect::to('/Home');
         }
         else{
-            // return redirect('/login')->with('flash_message_error','Email Or Password Not Valid');
-            echo "hi";
+            return redirect('/login')->with('flash_message_error','Email Or Password Not Valid');
+            // echo "hi";
 
         }
     }
+    public function delivery_form(Request $request)
+{
+
+    $data=array();
+        $data['name']=$request->name;
+        $data['phone']=$request->phone;
+        $data['email']=$request->email;
+        $data['parcel_Type']=$request->parcel_Type;
+        $data['parcel pickup date']=$request->parcel_pickup_date;
+        $data['parcel pickup address']=$request->parcel_pickup_address;
+        $data['receive name']=$request->receive_name;
+        $data['receive phone']=$request->receive_phone;
+        $data['receive email']=$request->receive_email;
+        $data['receive city']=$request->receive_city;
+        $data['receive address']=$request->receive_address;
+        $user=DB::table('delivery')->insertGetId($data);
+
+        return  Redirect::to('/show')->with('Success','Account has been created.');
+     // echo "hi";
+     }
+
+     public function show(Request $request)
+    {
+
+    
+        echo "hellow";
+        // return view('customer.show_form',);
+    }
+
+
+ public function calculat_result(Request $request)
+ {
+    $distance = $request->input('distance');
+    $weight = $request->input('weight');
+    
+    // Implement your delivery charge calculation logic here.
+    // You can use the $distance and $weight variables to calculate the charge.
+
+    // For example, a simple calculation:
+    $charge = $distance * $weight * 0.1; // Modify this as per your pricing strategy.
+
+    return view('delivery.result', compact('charge'));
+
+
+
+ }
+    
+
+
+
 }
+

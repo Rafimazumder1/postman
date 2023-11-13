@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Image;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 

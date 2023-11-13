@@ -18,7 +18,7 @@
 
   </head>
   <body>
-      <header>
+      {{-- <header>
         <div class="logo">
         <img class="log" src="img/postman.png" alt="Log">
         </div>
@@ -33,7 +33,8 @@
 
           </b>
         </div>
-      </header>
+      </header> --}}
+      @include("header")
       <div class="container">
         <div class="card">
             <div class="parent">
