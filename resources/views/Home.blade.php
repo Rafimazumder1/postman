@@ -56,7 +56,7 @@
                           </div>
 
                               </header> --}}
-                          @include('header')
+                          @include('welcome')
                           <!-- End Header -->
                           <div class="header" id="header">
                               <div class="heading" id="heading">
@@ -87,20 +87,20 @@
                               <div class="box">
 
                                   <h2>Express Delivery</h2>
-                                  <img src="img/postman.png" alt="Italian Trulli" style="width: 100px">
-                                  <p>Fast and reliable delivery service to get your parcels delivered on time.</p>
+                                  
+                                  <p style="margin-top:174px">Fast and reliable delivery service to get your parcels delivered on time.</p>
 
 
                               </div>
                               <div class="box">
                                   <h2>International Shipping</h2>
-                                  <img src="img/postman.png" alt="Italian Trulli" style="width: 100px">
-                                  <p>Efficient international shipping service to send parcels globally.</p>
+                                  
+                                  <p style="margin-top:174px">Efficient international shipping service to send parcels globally.</p>
                               </div>
                               <div class="box">
                                   <h2>Package Tracking</h2>
-                                  <img src="img/postman.png" alt="Italian Trulli" style="width: 100px">
-                                  <p>Real-time tracking to keep you updated on the status of your shipments.</p>
+                                  {{-- <img src="img/postman.png" alt="Italian Trulli" style="width: 100px"> --}}
+                                  <p style="margin-top:174px">Real-time tracking to keep you updated on the status of your shipments.</p>
 
                               </div>
                           </div>
@@ -140,9 +140,9 @@
 
 
                       <div class="container1">
-                          <div class="row">
+                          <div class="row" style="margin-left:50px;margin-right:0px">
                               <div class="col-lg-6">
-                                  <img src="https://th.bing.com/th/id/OIP.aWhuhLBi6BNhiPbv4nAYRAHaFM?w=284&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                  <img src="https://th.bing.com/th/id/OIP.aWhuhLBi6BNhiPbv4nAYRAHaFM?w=284&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7" style="align-items:center"
                                       alt="">
                                   <h3>have a car</h3>
                                   <p>
@@ -209,6 +209,40 @@
                       </div>
                       </div>
 
+                      <div class='container'>
+                        <h1 class='page-header text-center'> Parcel Cost Calculator</h1>
+                        <div class='jumbotron'>
+                          <form>
+                            Distance (km): <input id='distance' type="number" class="form-control" value="100">
+                            <!-- todo: Use Google maps to input trip start and end, calculate distance -->
+                            Petrol Price (cents per litre): 
+                            <!-- todo: Get local petrol price from API -->
+                            <input id='cost_per_litre' type="number" value="145" class="form-control">
+                            Litres per 100 km:
+                            <!-- todo: Allow user to enter car model and automatically get L/100km from scraped data -->
+                            <input id='litres_per_100km' type="number" value="7" class="form-control">
+                            Trip Cost
+                            <input id='output' class="form-control" type="text" readonly>
+                            <input type="submit" onclick='calculate_cost()' class="btn btn-primary btn-submit form-control">
+                          </form>
+                        </div>
+                      </div>
+                    
+                      <script>
+                        $("form").submit(function (e) {
+                          e.preventDefault();
+                        });
+                    
+                        function calculate_cost() {
+                          let liters_per_100km = $("#litres_per_100km").val();
+                          let cost_per_litre = $("#cost_per_litre").val();
+                          let distance = $("#distance").val();
+                          let trip_cost = (liters_per_100km * cost_per_litre / 100) * distance;
+                          $('#output').val('৳' + trip_cost.toFixed(2)); // fix to display two decimal places
+                        }
+                      </script>
+                    
+
 
                       <section>
                           <div class="row d-flex justify-content-center">
@@ -221,6 +255,10 @@
                                   </p>
                               </div>
                           </div>
+
+
+
+
 
                           <div class="row text-center">
                               <div class="col-md-4 mb-5 mb-md-0">
@@ -597,7 +635,9 @@
 
 
 
-
+<div class="contact_us"style="margin:20px">
+<h1>contact us</h1>
+</div>
 
                       <div class="form-main">
                           <div class="main-wrapper">

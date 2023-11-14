@@ -16,6 +16,7 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'Home']);
+Route::get('/a', [HomeController::class, 'welcome']);
 
 
 // Login

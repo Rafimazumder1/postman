@@ -238,13 +238,16 @@ footer {
 }
 
 .box {
-  text-align: center;
-  background-color: #f1f1f1;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKllL9Jg0hMSS-O8UrxbOv29z_B46BKEPNNA&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: center center;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 25px;
-  width:40%;
+  width: 40%;
   height: 300px;
+  text-align: center;
+  
   
   
 }
