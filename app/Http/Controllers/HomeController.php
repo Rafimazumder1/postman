@@ -18,6 +18,10 @@ class HomeController extends Controller
     {
         return view('Home',);
     }
+    public function start()
+    {
+        return view('customer.start',);
+    }
     public function welcome()
     {
         return view('welcome',);

@@ -635,7 +635,7 @@
 
 
 
-<div class="contact_us"style="margin:20px">
+<div class="contact_us"style="margin:20px" >
 <h1>contact us</h1>
 </div>
 

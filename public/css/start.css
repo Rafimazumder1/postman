@@ -1,0 +1,53 @@
+@import 'animate.css';
+
+.carousel-caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 20px; /* Adjust the padding as needed */
+    /* Optional: Add a semi-transparent background */
+    color:black;
+    
+}
+
+.carousel-caption h1 {
+    font-size: 6.5em;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.055em;
+    color: var(--grey-color);
+    padding-bottom: 0.2em;
+    padding-top: 4.2em;
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+@keyframes animate__bounceInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animated-text {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 10s;
+
+  }
