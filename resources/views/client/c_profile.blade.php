@@ -60,7 +60,7 @@
             </head>
             <body >
                 
-                    <div class="relative flex flex-col items-center rounded-[10px] mx-auto p-4 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+                    <div class="relative flex flex-col items-center rounded-[10px]  mx-auto p-4 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
                         <div class="relative flex h-30 w-full justify-center rounded-xl bg-cover" >
                         <div class="absolute -bottom-12 flex h-[130px] w-[130px] items-center justify-center rounded-full border-[4px] border-white bg-pink-400 dark:!border-navy-700">
                                 <img class="h-full w-full rounded-full" src='https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/avatar11.1060b63041fdffa5f8ef.png' alt="" />

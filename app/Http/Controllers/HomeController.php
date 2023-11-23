@@ -145,6 +145,14 @@ class HomeController extends Controller
 
 
  }
+
+ public function review()
+ {
+    return view('customer.c_review',);
+ }
+
+
+
     
 
 
