@@ -22,27 +22,34 @@
       <!-- Add any additional meta tags, styles, or scripts as needed -->
   </head>
   <body>
-      <!-- Video Ad Section -->
-    <div class="bgro">
-      <div class="video-ad">
-          <!-- Embed your video here or use a video hosting service -->
-          <iframe width="100%" height="500px"style="border-radius:10%" src="https://www.youtube.com/embed/iJhuXzqvzGU" frameborder="0" allowfullscreen autoplay muted></iframe>
-          <div id="text-overlay">
-            <h1 class="animate__animated animate__backInDown" style="color: red ;">introdues<br> <span style="color: rgb(25, 0, 255)" > the business world </span></h1>
-          </div>
-      </div>
-    </div>
-  
-      <!-- Explore Button -->
-      <div id="explore-button">
-          <a href="your-website-url" target="_blank">
-            <button class="btn btn-outline btn-warning">Warning</button>
-          </a>
-      </div>
-  
-      <!-- Rest of your website content goes here -->
-  
-  </body>
-  </html>
+       <div class="banner">
+        <div class="navber">
+          <img src="img/postman.png"class="logo">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About Us </a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        
+
+
+</div>
+<div class="video_con">
+<video autoplay muted loop id="video-banner">
+  <source src="/img/bu.mp4" type="video/mp4">
+</video>
+</div>
+
+<div class="contant">
+  <h1>Welcome To Bussiness World </h1>
+  <p>Subscribe plan and growup your Business</p>
+  <div>
+
+    <button class="button" type="button"> <span></span> More</button>
+    <button class="button" type="button"><span></span>Login</button>
+
+  </div>
+        </div>
 </body>
 </html>

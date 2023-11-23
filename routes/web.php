@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\clintController;
 use App\Http\Controllers\ImageController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
@@ -18,6 +19,7 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class, 'Home']);
 Route::get('/a', [HomeController::class, 'welcome']);
 Route::get('/start', [HomeController::class, 'start']);
+Route::get('/profile', [clintController::class, 'profile']);
 
 
 // Login
