@@ -672,10 +672,7 @@
                       </div>
 
 
-                      <footer>
-                          <p>&copy; 2023 Courier Express. All rights reserved.</p>
-                      </footer>
-
+                     
 
                       <script>
                           function
@@ -706,6 +703,11 @@
                       </script>
 
 
+@include('customer.c_review')
+
+<footer>
+    <p>&copy; 2023 Courier Express. All rights reserved.</p>
+</footer>
 
 
                       </body>
