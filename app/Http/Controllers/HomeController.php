@@ -151,6 +151,11 @@ class HomeController extends Controller
     return view('customer.c_review',);
  }
 
+ public function location()
+ {
+    return view('customer.location',);
+ }
+
 
 
     

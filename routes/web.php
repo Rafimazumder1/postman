@@ -21,6 +21,7 @@ Route::get('/a', [HomeController::class, 'welcome']);
 Route::get('/start', [HomeController::class, 'start']);
 Route::get('/profile', [clintController::class, 'profile']);
 Route::get('/review', [HomeController::class, 'review']);
+Route::get('/location', [HomeController::class, 'location']);
 
 
 // Login
