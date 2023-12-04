@@ -271,78 +271,9 @@
                                                 <li>Bandorban</li>
                                                 <li>Cumilla</li>
                                                 <li>shylet</li>
-                                                <li></li>
+                                                <li>Borisal</li>
                                                 <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
-                                                <li>Bagerhat</li>
+                            
                                                
                                                 <!-- Add more list items here -->
                                             </ul>
@@ -525,14 +456,17 @@
 
 
 
+
+
 <div class="contact_us"style="margin:20px" >
 <h1>contact us</h1>
 </div>
-
+           
                       <div class="form-main">
                           <div class="main-wrapper">
                               <h2 class="form-head">Contact From</h2>
-                              <form action="" class="form-wrapper">
+                              <form action="{{url('/contact')}}"  method="POST" class="form-wrapper">
+                                {{ csrf_field() }}
                                   <div class="form-card">
                                       <input class="form-input" type="text" name="full_name"
                                           required="required" />
@@ -551,8 +485,12 @@
                                   </div>
 
                                   <div class="form-card">
-                                      <textarea class="form-textarea" maxlength="420" rows="3" name="phone_number" required="required"></textarea>
-                                      <label class="form-textarea-label" for="phone_number">Address</label>
+                                      <textarea class="form-textarea" maxlength="420" rows="1" name="address" required="required"></textarea>
+                                      <label class="form-textarea-label" for="address">Address</label>
+                                  </div>
+                                  <div class="form-card">
+                                      <textarea class="form-textarea" maxlength="420" rows="2" name="sms" required="required"></textarea>
+                                      <label class="form-textarea-label" for="messege">messege </label>
                                   </div>
                                   <div class="btn-wrap">
                                       <button> Submit </button>

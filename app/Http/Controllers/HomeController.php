@@ -155,7 +155,28 @@ class HomeController extends Controller
  {
     return view('customer.location',);
  }
+ public function contact_us(Request $ifra)
+ {
+$rafi=array();
+$rafi['full_name']=$ifra->full_name;
+$rafi['email']=$ifra->email;
+$rafi['phone_number']=$ifra->phone_number;
+$rafi['address']=$ifra->address;
+$rafi['messege']=$ifra->sms;
 
+// dd($ifra);
+  
+
+$contact=DB::table('contact')->insertGetId($rafi);
+
+
+
+
+    // return view('customer.location',);
+ }
+
+
+ 
 
 
     

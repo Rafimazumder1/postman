@@ -4,6 +4,7 @@ use App\Http\Controllers\clintController;
 use App\Http\Controllers\ImageController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,7 @@ Route::get('/start', [HomeController::class, 'start']);
 Route::get('/profile', [clintController::class, 'profile']);
 Route::get('/review', [HomeController::class, 'review']);
 Route::get('/location', [HomeController::class, 'location']);
+
 
 
 // Login
@@ -46,4 +48,11 @@ Route::post('/calculat_result', [HomeController::class, 'calculat_result']);
 
 // image route for slide image in home page
 
+Route::get('/contact', [HomeController::class, 'contact_us']);
+Route::post('/contact', [HomeController::class, 'contact_us']);
+
 // routes/web.php
+
+// Admin
+
+Route::get('/admin', [AdminController::class, 'admin_deshboard']);
