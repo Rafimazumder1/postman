@@ -7,20 +7,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-@extends('layouts.app') {{-- Make sure to extend the appropriate layout --}}
 
 @section('content')
-    @foreach ($data as $contact)
-        <form action="" method="get" enctype="">
+    @foreach ($con as $contact)
+        <form action="/admin" method="get" enctype="">
             <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="{{ $contact->full_name }}">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="{{ $contact->email }}">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="{{ $contact->address }}">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
+            <div class="form-group">
+                <label for="exampleInputPhoneNumber">Phone Number</label>
+                <input type="tel" class="form-control" id="exampleInputPhoneNumber" placeholder="{{ $contact->Phone_number }}">
+            </div>
+           
             <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
@@ -28,7 +33,7 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     @endforeach
-@endsection
+
 
 </html>
 
