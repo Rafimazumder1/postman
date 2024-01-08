@@ -27,11 +27,10 @@
 
 
 </head>
+
 <body>
   
-
-
-  <div class="navbar bg-primary text-primary-content" style="height: 80px; border-radius:0px 0px 50px 50px ; margin-top:0px; margin_left:0px">
+  <div class="navbar bg-primary text-primary-content" style="height: 50px; width: 1390 px;border-radius:0px 0px 50px 50px;padding-left: 0px;margin-left: 0px;margin-right: 0px;">
     <div class="navbar-start">
       <div class="dropdown">
         <label tabindex="0" class="btn btn-ghost lg:show">
@@ -49,12 +48,12 @@
           <li><a>Item 3</a></li>
         </ul>
       </div>
-      <img src="img/postman.png" style="padding-left:27px; height:61px" alt="Logo" class="h-10 w-30" />
+      <img src="img/postman.png" style="padding-left:27px; height:51px" alt="Logo" class="h-15 w-30" />
       
     </div>
-    <div class="navbar-center hidden lg:flex">
+    <div class="navbar-center mr-4 hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li><a>Home</a></li>
+        <li><a href="{{ url('/') }}">Home</a></li>
         <li><a>Service</a></li>
         <li><a>Aria</a></li>
         <li tabindex="0">
@@ -75,11 +74,10 @@
           </details>
         </li>
         <li><a href="{{url('/delivery_calculator')}}" style="color: white; text-decoration: none; background-color:rgb(24, 24, 22); margin-left:59px">Parcel Cost</a></li>
+        <li><a href="{{url('/login')}}" style="color: white; text-decoration: none; background-color:rgb(24, 24, 22); margin-left:9px; margin-right:5px">Log In</a></li>
       </ul>
     </div>
-    <div class="navbar-end" style="width:227px; margin-right:38px">
-      <a class="btn">Login</a>
-    </div>
+   
   </div>
 
 </body>

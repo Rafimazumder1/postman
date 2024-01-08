@@ -56,3 +56,4 @@ Route::post('/contact', [HomeController::class, 'contact_us']);
 // Admin
 
 Route::get('/admin', [AdminController::class, 'admin_deshboard']);
+Route::get('/chack', [HomeController::class, 'chack']);

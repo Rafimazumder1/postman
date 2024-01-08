@@ -179,7 +179,10 @@ $contact=DB::table('contact')->insertGetId($rafi);
  
 
 
-    
+ public function chack()
+ {
+     return view('chack',);
+ }
 
 
 
