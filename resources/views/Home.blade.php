@@ -76,12 +76,15 @@
                               </div>
 
                           </div>
-                          <div class="serv">
-                              <h1>Service</h1>
+                          <div class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center m-5 mt-5 h-14 p-2" style="border-top-left-radius: 0px; border-bottom-left-radius: 50px;border-bottom-right-radius:0px; border-top-right-radius:50px;">
+                            <div class="text-white text-center font-extrabold text-4xl drop-shadow-2xl animate-spin-once"><span class="animate-fade-in-once">Our</span> Service</div>
                           </div>
+                          
+                          
+                          
 
 
-                          <div class="container1">
+                          <div class="container1 mt-4 px-5">
 
 
                               <div class="box">
@@ -109,7 +112,7 @@
                           </div>
 
 
-                          </section>
+                          
                           <!-- Earn with Postman section end  -->
 
                           {{-- <section class="section-padding earn-with-Postman">
@@ -196,7 +199,17 @@
 
 
 
-                          <div class="wrapper antialiased text-gray-900">
+
+
+                        <div class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center m-5 mt-5 h-14 p-2" style="border-top-left-radius: 0px; border-bottom-left-radius: 50px;border-bottom-right-radius:0px; border-top-right-radius:50px;">
+                            <div class="text-white text-center font-extrabold text-4xl drop-shadow-2xl ">Service</div>
+                          </div>
+                          
+                          
+
+
+
+                          <div class="wrapper antialiased text-gray-900 h-auto ">
                               <div
                                   class="da relative mt-0 flex-col m-5 justify-center overflow-hidden">
 
@@ -286,24 +299,24 @@
                           </div>
 
 
+                        
+
+
+
+
+
+
+
+                          <div class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center m-5 mt-5 h-14 p-2" style="border-top-left-radius: 0px; border-bottom-left-radius: 50px;border-bottom-right-radius:0px; border-top-right-radius:50px;">
+                            <div class="text-white text-center font-extrabold text-4xl drop-shadow-2xl animate-spin-once">Join</div>
                           </div>
+                          
+                          
 
+                          
 
-
-
-
-
-
-                          <div class="flex items-center justify-center bg-gray-200 ">
-                              <!-- Set your background color or image here -->
-                              <div class="join-us text-center">
-                                  <h1 class="text-3xl font-bold">Join us</h1>
-                                  <!-- Add more content as needed -->
-                              </div>
-                          </div>
-
-                          <div class="container1">
-                              <div class="row" style="margin-left:50px;margin-right:0px">
+                          <div class="container">
+                              <div class="row" style="margin-left:45px;margin-right:60px">
                                   <div class="col-lg-6">
                                       <img src="https://th.bing.com/th/id/OIP.aWhuhLBi6BNhiPbv4nAYRAHaFM?w=284&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7"
                                           style="align-items:center" alt="">
@@ -379,10 +392,10 @@
                           </div>
 
                           <div class='container'>
-                              <h1 class='page-header text-center'
-                                  style="background-color: black; height:50px; color:aliceblue; border-radius:10px">
-                                  Parcel
-                                  Cost Calculator</h1>
+
+                            <div class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center m-5 mt-1 h-14 p-2" style="border-top-left-radius: 0px; border-bottom-left-radius: 50px;border-bottom-right-radius:0px; border-top-right-radius:50px;">
+                            <div class="text-white text-center font-extrabold text-4xl drop-shadow-2xl animate-spin-once">Parcel Calculetor</div>
+                          </div>
                               <div class='jumbotron'>
                                   <form>
                                       Distance (km): <input id='distance' type="number" class="form-control"
@@ -420,19 +433,19 @@
                               }
                           </script>
 
-                          <div class="container_map">
+                          <div class="container_map"style= "padding-top:10px; margin-top:20px">
                               <div class="coverage be-animated in-view">
 
 
 
-                                  <h1 class="common-heading">Coverage <span>Map</span></h1>
+                                  <h1 class="common-heading animate-bounce padding:40px">Coverage <span>Map</span></h1>
                                   {{-- <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
                                 <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
                                 </video>  --}}
-                                  <h3
+                                  <h1
                                       class="flex items-center justify-center animate-scaleAnimation duration-5 ease-in-out">
                                       We are currently available in 64 districts.
-                                  </h3>
+                                  </h1>
 
                                   <div class="row_map">
                                       <div class="col-7">

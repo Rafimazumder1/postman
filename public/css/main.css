@@ -441,9 +441,9 @@ html {
     width: 100%;
     height: 70%;
     font: weight 500rem;
-    letter-spacing: 25px;
+    letter-spacing: 15px;
     color: #d30909;
-    background-color: #fffbfb;
+    /* background-color: #fffbfb; */
     margin-top: 40px;
 }
 /* sender css */
@@ -548,6 +548,13 @@ hr {
     padding-left: 15px;
     background-color: #fdf7f7;
 }
+.be-animated {
+    /* animation-name:rotate;
+    animation-duration: 2s;
+    animation-timing-function: ease; Adjust the timing function as needed */
+    /* Add other animation properties as needed */
+  }
+  
 
 .common-heading,
 .home-about h2 {
@@ -732,4 +739,29 @@ a:not([href]):not([tabindex]) {
     100% {
         transform: scale(1);
     }
+
+
+    
 }
+@keyframes spin-once {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes fade-in-once {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .animate-spin-once {
+    animation: spin-once 0.5s linear 1;
+  }
+
+  .animate-fade-in-once {
+    animation: fade-in-once 3s ease-in-out 1;
+  }
