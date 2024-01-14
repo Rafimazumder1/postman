@@ -183,6 +183,10 @@ $contact=DB::table('contact')->insertGetId($rafi);
  {
      return view('chack',);
  }
+ public function footer()
+ {
+     return view('footer.footer',);
+ }
 
 
 

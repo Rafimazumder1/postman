@@ -76,12 +76,16 @@
                               </div>
 
                           </div>
-                          <div class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center m-5 mt-5 h-14 p-2" style="border-top-left-radius: 0px; border-bottom-left-radius: 50px;border-bottom-right-radius:0px; border-top-right-radius:50px;">
-                            <div class="text-white text-center font-extrabold text-4xl drop-shadow-2xl animate-spin-once"><span class="animate-fade-in-once">Our</span> Service</div>
+                          <div class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center m-5 mt-5 h-14 p-2"
+                              style="border-top-left-radius: 0px; border-bottom-left-radius: 50px;border-bottom-right-radius:0px; border-top-right-radius:50px;">
+                              <div
+                                  class="text-white text-center font-extrabold text-4xl drop-shadow-2xl animate-spin-once">
+                                  <span class="animate-fade-in-once">Our</span> Service
+                              </div>
                           </div>
-                          
-                          
-                          
+
+
+
 
 
                           <div class="container1 mt-4 px-5">
@@ -112,7 +116,7 @@
                           </div>
 
 
-                          
+
                           <!-- Earn with Postman section end  -->
 
                           {{-- <section class="section-padding earn-with-Postman">
@@ -201,17 +205,17 @@
 
 
 
-                        <div class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center m-5 mt-5 h-14 p-2" style="border-top-left-radius: 0px; border-bottom-left-radius: 50px;border-bottom-right-radius:0px; border-top-right-radius:50px;">
-                            <div class="text-white text-center font-extrabold text-4xl drop-shadow-2xl ">Service</div>
+                          <div class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center m-5 mt-5 h-14 p-2"
+                              style="border-top-left-radius: 0px; border-bottom-left-radius: 50px;border-bottom-right-radius:0px; border-top-right-radius:50px;">
+                              <div class="text-white text-center font-extrabold text-4xl drop-shadow-2xl ">Service</div>
                           </div>
-                          
-                          
+
+
 
 
 
                           <div class="wrapper antialiased text-gray-900 h-auto ">
-                              <div
-                                  class="da relative mt-0 flex-col m-5 justify-center overflow-hidden">
+                              <div class="da relative mt-0 flex-col m-5 justify-center overflow-hidden">
 
                                   <div
                                       class="group relative m-0 flex h-72 w-96 rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
@@ -299,7 +303,6 @@
                           </div>
 
 
-                        
 
 
 
@@ -307,13 +310,17 @@
 
 
 
-                          <div class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center m-5 mt-5 h-14 p-2" style="border-top-left-radius: 0px; border-bottom-left-radius: 50px;border-bottom-right-radius:0px; border-top-right-radius:50px;">
-                            <div class="text-white text-center font-extrabold text-4xl drop-shadow-2xl animate-spin-once">Join</div>
+
+                          <div class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center m-5 mt-5 h-14 p-2"
+                              style="border-top-left-radius: 0px; border-bottom-left-radius: 50px;border-bottom-right-radius:0px; border-top-right-radius:50px;">
+                              <div
+                                  class="text-white text-center font-extrabold text-4xl drop-shadow-2xl animate-spin-once">
+                                  Join</div>
                           </div>
-                          
-                          
 
-                          
+
+
+
 
                           <div class="container">
                               <div class="row" style="margin-left:45px;margin-right:60px">
@@ -393,9 +400,12 @@
 
                           <div class='container'>
 
-                            <div class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center m-5 mt-1 h-14 p-2" style="border-top-left-radius: 0px; border-bottom-left-radius: 50px;border-bottom-right-radius:0px; border-top-right-radius:50px;">
-                            <div class="text-white text-center font-extrabold text-4xl drop-shadow-2xl animate-spin-once">Parcel Calculetor</div>
-                          </div>
+                              <div class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center m-5 mt-1 h-14 p-2"
+                                  style="border-top-left-radius: 0px; border-bottom-left-radius: 50px;border-bottom-right-radius:0px; border-top-right-radius:50px;">
+                                  <div
+                                      class="text-white text-center font-extrabold text-4xl drop-shadow-2xl animate-spin-once">
+                                      Parcel Calculetor</div>
+                              </div>
                               <div class='jumbotron'>
                                   <form>
                                       Distance (km): <input id='distance' type="number" class="form-control"
@@ -433,7 +443,7 @@
                               }
                           </script>
 
-                          <div class="container_map"style= "padding-top:10px; margin-top:20px">
+                          <div class="container_map"style="padding-top:10px; margin-top:20px">
                               <div class="coverage be-animated in-view">
 
 
@@ -546,92 +556,99 @@
 
 
 
-<div class="relative  bg-blueGray-50">
-    <div class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
-        <div class="absolute top-0 w-full h-full bg-center bg-cover"
-            style="
+                          <div class="relative  bg-blueGray-50">
+                              <div
+                                  class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
+                                  <div class="absolute top-0 w-full h-full bg-center bg-cover"
+                                      style="
                 background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80');
               ">
-            <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
-        </div>
-        <div class="container relative mx-auto">
-            <div class="items-center flex flex-wrap">
-                <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                    <div class="pr-12">
-                        <h1 class="text-white font-semibold text-5xl">
-                            Your story starts with us.
-                        </h1>
-                        <p class="mt-4 text-lg text-blueGray-200">
-                            This is a simple example of a Landing Page you can build using
-                            Notus JS. It features multiple CSS components based on the
-                            Tailwind CSS design system.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
-            style="transform: translateZ(0px)">
-            <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
-                <polygon class="text-blueGray-200 fill-current" points="2560 0 2560 100 0 100"></polygon>
-            </svg>
-        </div>
-    </div>
-    <div class="pb-10 bg-blueGray-200 -mt-24">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-wrap">
-                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-                    <div
-                        class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                        <div class="px-4 py-5 flex-auto">
-                            <div
-                                class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                                <i class="fas fa-award"></i>
-                            </div>
-                            <h6 class="text-xl font-semibold">Awarded Agency</h6>
-                            <p class="mt-2 mb-4 text-blueGray-500">
-                                Divide details about your product or agency work into parts.
-                                A paragraph describing a feature will be enough.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full md:w-4/12 px-4 text-center">
-                    <div
-                        class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                        <div class="px-4 py-5 flex-auto">
-                            <div
-                                class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
-                                <i class="fas fa-retweet"></i>
-                            </div>
-                            <a href="/tracking-number">
-                                <h6 class="text-xl font-semibold">Tracking Parcel</h6>
-                            </a>
-                            <p class="mt-2 mb-4 text-blueGray-500">
-                                Keep you user engaged by providing meaningful information.
-                                Remember that by this time, the user is curious.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="pt-6 w-full md:w-4/12 px-4 text-center">
-                    <div
-                        class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                        <div class="px-4 py-5 flex-auto">
-                            <div
-                                class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
-                                <i class="fas fa-fingerprint"></i>
-                            </div>
-                            <h6 class="text-xl font-semibold">Verified Company</h6>
-                            <p class="mt-2 mb-4 text-blueGray-500">
-                                Write a few lines about each one. A paragraph describing a
-                                feature will be enough. Keep you user engaged!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                                      <span id="blackOverlay"
+                                          class="w-full h-full absolute opacity-75 bg-black"></span>
+                                  </div>
+                                  <div class="container relative mx-auto">
+                                      <div class="items-center flex flex-wrap">
+                                          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                                              <div class="pr-12">
+                                                  <h1 class="text-white font-semibold text-5xl">
+                                                      Your story starts with us.
+                                                  </h1>
+                                                  <p class="mt-4 text-lg text-blueGray-200">
+                                                      This is a simple example of a Landing Page you can build using
+                                                      Notus JS. It features multiple CSS components based on the
+                                                      Tailwind CSS design system.
+                                                  </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
+                                      style="transform: translateZ(0px)">
+                                      <svg class="absolute bottom-0 overflow-hidden"
+                                          xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                                          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+                                          <polygon class="text-blueGray-200 fill-current"
+                                              points="2560 0 2560 100 0 100"></polygon>
+                                      </svg>
+                                  </div>
+                              </div>
+                              <div class="pb-10 bg-blueGray-200 -mt-24">
+                                  <div class="container mx-auto px-4">
+                                      <div class="flex flex-wrap">
+                                          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                                              <div
+                                                  class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                                                  <div class="px-4 py-5 flex-auto">
+                                                      <div
+                                                          class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                                                          <i class="fas fa-award"></i>
+                                                      </div>
+                                                      <h6 class="text-xl font-semibold">Awarded Agency</h6>
+                                                      <p class="mt-2 mb-4 text-blueGray-500">
+                                                          Divide details about your product or agency work into parts.
+                                                          A paragraph describing a feature will be enough.
+                                                      </p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="w-full md:w-4/12 px-4 text-center">
+                                              <div
+                                                  class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                                                  <div class="px-4 py-5 flex-auto">
+                                                      <div
+                                                          class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
+                                                          <i class="fas fa-retweet"></i>
+                                                      </div>
+                                                      <a href="/tracking-number">
+                                                          <h6 class="text-xl font-semibold">Tracking Parcel</h6>
+                                                      </a>
+                                                      <p class="mt-2 mb-4 text-blueGray-500">
+                                                          Keep you user engaged by providing meaningful information.
+                                                          Remember that by this time, the user is curious.
+                                                      </p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+                                              <div
+                                                  class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                                                  <div class="px-4 py-5 flex-auto">
+                                                      <div
+                                                          class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                                                          <i class="fas fa-fingerprint"></i>
+                                                      </div>
+                                                      <h6 class="text-xl font-semibold">Verified Company</h6>
+                                                      <p class="mt-2 mb-4 text-blueGray-500">
+                                                          Write a few lines about each one. A paragraph describing a
+                                                          feature will be enough. Keep you user engaged!
+                                                      </p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      
 
 
 
@@ -643,7 +660,7 @@
 
 
 
-                          {{-- <ul>
+                                      {{-- <ul>
  <li><a class="active"> <i class="icon-truck"></i> Surface </a></li>
  <li><a><i class="icon-plane"></i> Air </a></li>
 </ul>
@@ -730,7 +747,7 @@
 </ul>
 </div>
 </div> --}}
-                          {{-- <div class="col-5"><a href="https://ecourier.com.bd/wp-content/uploads/map-01-1.svg"><img
+                                      {{-- <div class="col-5"><a href="https://ecourier.com.bd/wp-content/uploads/map-01-1.svg"><img
                                   decoding="async" fetchpriority="high" class="alignnone wp-image-2898"
                                   role="img" src="https://ecourier.com.bd/wp-content/uploads/map-01-1.svg"
                                   alt="" width="600" height="1200"></a></div>
@@ -744,88 +761,95 @@
 
 
 
-                          <div class="contact_us"style="margin:20px">
-                              <h1>contact us</h1>
-                          </div>
+                      <div class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center  mt-5 h-14 p-2"
+                      style="border-top-left-radius: 0px; border-bottom-left-radius: 50px;border-bottom-right-radius:0px; border-top-right-radius:50px;">
+                      <div
+                          class="text-white text-center font-extrabold text-4xl drop-shadow-2xl animate-spin-once">Contact Us</div>
+                  </div>
 
-                          <div class="form-main">
-                              <div class="main-wrapper">
-                                  <h2 class="form-head">Contact From</h2>
-                                  <form action="{{ url('/contact') }}" method="POST" class="form-wrapper">
-                                      {{ csrf_field() }}
-                                      <div class="form-card">
-                                          <input class="form-input" type="text" name="full_name"
-                                              required="required" />
-                                          <label class="form-label" for="full_name">Full Name</label>
+                                      <div class="form-main">
+                                          <div class="main-wrapper">
+                                              <h2 class="form-head">Contact From</h2>
+                                              <form action="{{ url('/contact') }}" method="POST"
+                                                  class="form-wrapper">
+                                                  {{ csrf_field() }}
+                                                  <div class="form-card">
+                                                      <input class="form-input" type="text" name="full_name"
+                                                          required="required" />
+                                                      <label class="form-label" for="full_name">Full Name</label>
+                                                  </div>
+
+                                                  <div class="form-card">
+                                                      <input class="form-input" type="email" name="email"
+                                                          required="required" />
+                                                      <label class="form-label" for="email">Email</label>
+                                                  </div>
+
+                                                  <div class="form-card">
+                                                      <input class="form-input" type="number" name="phone_number"
+                                                          required="required" />
+                                                      <label class="form-label" for="phone_number">Phone
+                                                          number</label>
+                                                  </div>
+
+                                                  <div class="form-card">
+                                                      <textarea class="form-textarea" maxlength="420" rows="1" name="address" required="required"></textarea>
+                                                      <label class="form-textarea-label"
+                                                          for="address">Address</label>
+                                                  </div>
+                                                  <div class="form-card">
+                                                      <textarea class="form-textarea" maxlength="420" rows="2" name="sms" required="required"></textarea>
+                                                      <label class="form-textarea-label" for="messege">messege
+                                                      </label>
+                                                  </div>
+                                                  <div class="btn-wrap">
+                                                      <button> Submit </button>
+                                                  </div>
+                                              </form>
+                                          </div>
                                       </div>
 
-                                      <div class="form-card">
-                                          <input class="form-input" type="email" name="email"
-                                              required="required" />
-                                          <label class="form-label" for="email">Email</label>
-                                      </div>
-
-                                      <div class="form-card">
-                                          <input class="form-input" type="number" name="phone_number"
-                                              required="required" />
-                                          <label class="form-label" for="phone_number">Phone number</label>
-                                      </div>
-
-                                      <div class="form-card">
-                                          <textarea class="form-textarea" maxlength="420" rows="1" name="address" required="required"></textarea>
-                                          <label class="form-textarea-label" for="address">Address</label>
-                                      </div>
-                                      <div class="form-card">
-                                          <textarea class="form-textarea" maxlength="420" rows="2" name="sms" required="required"></textarea>
-                                          <label class="form-textarea-label" for="messege">messege </label>
-                                      </div>
-                                      <div class="btn-wrap">
-                                          <button> Submit </button>
-                                      </div>
-                                  </form>
-                              </div>
-                          </div>
 
 
 
+                                      <script>
+                                          function
 
-                          <script>
-                              function
-
-                              function() {
-                                  document.getElementById("air ").classList.toggle("show");
-                              }
-                              window.onload = function() {
-                                  $('.coverage-area').addClass('in-view');
-                              };
-
-                              function myFunction() {
-                                  document.getElementById("myDropdown").classList.toggle("show");
-                              }
-
-                              // Close the dropdown menu if the user clicks outside of it
-                              window.onclick = function(event) {
-                                  if (!event.target.matches('.dropbtn')) {
-                                      var dropdowns = document.getElementsByClassName("dropdown-content");
-                                      var i;
-                                      for (i = 0; i < dropdowns.length; i++) {
-                                          var openDropdown = dropdowns[i];
-                                          if (openDropdown.classList.contains('show')) {
-                                              openDropdown.classList.remove('show');
+                                          function() {
+                                              document.getElementById("air ").classList.toggle("show");
                                           }
-                                      }
-                                  }
-                              }
-                          </script>
+                                          window.onload = function() {
+                                              $('.coverage-area').addClass('in-view');
+                                          };
 
+                                          function myFunction() {
+                                              document.getElementById("myDropdown").classList.toggle("show");
+                                          }
 
-                          @include('customer.c_review')
+                                          // Close the dropdown menu if the user clicks outside of it
+                                          window.onclick = function(event) {
+                                              if (!event.target.matches('.dropbtn')) {
+                                                  var dropdowns = document.getElementsByClassName("dropdown-content");
+                                                  var i;
+                                                  for (i = 0; i < dropdowns.length; i++) {
+                                                      var openDropdown = dropdowns[i];
+                                                      if (openDropdown.classList.contains('show')) {
+                                                          openDropdown.classList.remove('show');
+                                                      }
+                                                  }
+                                              }
+                                          }
+                                      </script>
 
-                          <footer>
+                                      <div>
+                                          @include('customer.c_review')
+                                          @include('footer/footer')
+
+                                          {{-- <footer>
                               <p>&copy; 2023 Courier Express. All rights reserved.</p>
-                          </footer>
+                          </footer> --}}
 
-
+                                      </div>
                       </body>
 
                       </html>
